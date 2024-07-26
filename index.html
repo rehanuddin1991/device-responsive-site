@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: auto;
+            gap: 20px;
+            font-size: 18px;
+            text-align: justify;
+            
+            
+
+        }
+
+        .container>div {
+            text-align: justify;
+        }
+
+        .cont2 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+        }
+        .five {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            color:brown;
+        }
+        .six {
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+
+        .one {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            color: green;
+        }
+
+        .two {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            color: blue;
+        }
+
+        .three {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            color:black;
+        }
+
+        .four {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="one">This is my header and this is all devices responsive.it would be nice with every devices.you may check.thanks</div>
+        <div class="two">This is Section two. it's also devices responsive</div>
+        <div class="three">3 st Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quas consectetur
+            accusantium nesciunt sunt ullam voluptatum dicta harum autem. Illum optio, architecto obcaecati cum fuga
+            voluptas corrupti magni dicta dignissimos.3</div>
+        <div class="four">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt reprehenderit perferendis
+            impedit, blanditiis numquam eum a, ex autem rem, optio neque nobis in iure porro? Possimus perferendis quam
+            enim id ratione, incidunt non officia obcaecati magni. Fuga officia deserunt excepturi? end 40</div>
+        <div class="five">our content section here......here we go....</div>
+        <div class="six">This is my Footer and this is all devices responsive.it would be nice with every devices.you may check.thanks</div>
+    </div>
+
+</body>
+
+</html>
