@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Layout</title>
     <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
         .container {
             display: grid;
             grid-template-columns: auto;
             gap: 20px;
             font-size: 18px;
             text-align: justify;
+            align-items: center;
 
 
 
@@ -31,12 +37,19 @@
             grid-column-start: 1;
             grid-column-end: 4;
             color: brown;
-             
-            color: darkcyan;
-            padding: 2px;
-            margin:auto;
 
-             
+            color: darkcyan;
+            padding-left: 30px;
+
+
+            row-gap: 20px;
+
+
+        }
+
+        .five li {
+            font-size: 1.2rem;
+            margin-top: 3px;
         }
 
         .six {
@@ -44,12 +57,12 @@
             grid-column-end: 4;
             background-color: brown;
             color: whitesmoke;
-            padding: 2px;
+            padding: 4px;
             bottom: 0px;
             left: 0;
             width: 100%;
             position: fixed;
-            
+
 
         }
 
@@ -59,7 +72,7 @@
             grid-column-end: 4;
             color: whitesmoke;
             background-color: darkcyan;
-            padding: 2px;
+            padding: 4px;
         }
 
         .two {
@@ -73,15 +86,17 @@
         .three {
             grid-column-start: 2;
             grid-column-end: 3;
-            color: orangered;
-            padding: 2px;
+            color: coral;
+            padding: 4px;
+            gap:5px;
+            display: grid;
         }
 
         .four {
             grid-column-start: 3;
             grid-column-end: 4;
             color: darkcyan;
-            padding: 2px;
+            padding: 4px;
         }
     </style>
 </head>
@@ -89,37 +104,38 @@
 <body>
     <div class="container">
         <div class="one">This is Mr. Rehan Uddin, a Software Engineer and Government ICT Officials of Bangladesh. I have
-            Sound knowledge in IT/Software Industry. Before joining government job I Worked logic software ltd. as a
+            Sound knowledge in IT/Software Industry. Before joining government job, I have worked logic software ltd. as
+            a
             software engineer</div>
         <div class="two">
             <p style="text-align: justify;">
-                  About Me 
-                 Father's Name: Jamal Uddin <br>
-                 Email: rehan.doict@gmail.com <br>
-                 Address: Fulgazi, Feni 
+                About Me
+                Father's Name: Jamal Uddin <br>
+                Email: rehan.doict@gmail.com <br>
+                Address: Fulgazi, Feni
             </p>
-        
+
         </div>
-        <div class="three">3 st Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quas consectetur
-            accusantium nesciunt sunt ullam voluptatum dicta harum autem. Illum optio, architecto obcaecati cum fuga
-            voluptas corrupti magni dicta dignissimos.3</div>
-        <div class="four">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt reprehenderit perferendis
-            impedit, blanditiis numquam eum a, ex autem rem, optio neque nobis in iure porro? Possimus perferendis quam
-            enim id ratione, incidunt non officia obcaecati magni. Fuga officia deserunt excepturi? end 40</div>
-        <div class="five"  >This is my header and this is all devices responsive.It would be nice with every devices.you
-            may check.thanks. This is my header and this is all devices responsive.It would be nice with every devices.you
-            may check.thanks. This is my header and this is all devices responsive.It would be nice with every devices.you
-            may check.thanks. This is my header and this is all devices responsive.It would be nice with every devices.you
-            may check.thanks. This is my header and this is all devices responsive.It would be nice with every devices.you
-            may check.thanks. This is my header and this is all devices responsive.It would be nice with every devices.you
-            may check.thanks. This is my header and this is all devices responsive.It would be nice with every devices.you
-            may check.thanks. This is my header and this is all devices responsive.It would be nice with every devices.you
-            may check.thanks. This is my header and this is all devices responsive.It would be nice with every devices.you
-            may check.thanks. This is my header and this is all devices responsive.It would be nice with every devices.you
-            may check.thanks. This is my header and this is all devices responsive.It would be nice with every devices.you
-            may check.thanks. This is my header and this is all devices responsive.It would be nice with every devices.you
-            may check.thanks. This is my header and this is all devices responsive.It would be nice with every devices.you
-            may check.thanks. </div>
+        <div class="three"> 
+            <h1 >Job Description</h1>
+            <h4>Software Engineer at Logic Software Ltd. (2016-2019)</h4>
+            <h4> Assistant Programmer at ICT Division  (2019-till)</h4>
+              </div>
+        <div class="four"> <img src="rehan.jpg" alt="rehan's Images" style="  width: full;height: 120px;"></div>
+        <div class="five">
+            <h3>Professional Activities</h3> <br>
+            <ol>
+                <li>Familiar With HTML, CSS, Bootstrap, Javascript, React, PHP, Nodejs, Mysql, Oracle,Ajax</li>
+                <li style="color:brown;">Familiar With Version Control System (GIT, GITHUB)</li>
+                <li>I Can Write Clean, Efficient, Scalable Code</li>
+                <li style="color:brown;">I am able to identify and fix bugs in existing application</li>
+                <li>Familiar with laravel framework</li>
+                <li style="color:brown;">I have sound knowledge in SQL</li>
+                <li>I have Strong Problem-Solving Skills</li>
+                <li style="color:brown;">I have Clean knowledge About Design Pattern and Device friendly Pattern</li>
+                <li>I have Cyber Security knowledge</li>
+            </ol>
+        </div>
         <div class="six" style="text-align: center;">&copy;Rehan Uddin all rights reserved</div>
     </div>
 
