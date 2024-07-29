@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../grid-responsive"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "3rd day"
+	}
+}
